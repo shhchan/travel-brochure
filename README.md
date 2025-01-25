@@ -2,6 +2,19 @@
 <img src="http://img.shields.io/badge/-LaTeX-008080.svg?logo=latex&style=flat">
 これは旅行のしおり用のリポジトリです。
 
-## $\LaTeX$ 環境
-従来使っていたのは pLaTeX だが、これはもう古すぎるので、新しいもの（LuaLaTeX）に乗り換えても良いかもしれない。
-新しい環境整備に関連する内容を、ここに記述していく。
+# 始め方
+
+## 作業場所にリポジトリを作成する
+
+```shell
+cd /path/to/your/working/directory
+```
+```shell
+git init
+```
+
+## 旅行のしおり用リポジトリのソースをローカルにクローンする
+
+```shell
+git clone https://github.com/shhchan/travel-brochure.git
+```
