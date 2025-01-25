@@ -24,7 +24,7 @@ git clone https://github.com/shhchan/travel-brochure.git
 ## 最新の情報を取り込む
 
 ```shell
-git fetch
+git pull
 ```
 
 ## ブランチを移動する
@@ -55,6 +55,10 @@ git add -u
  ## プッシュする
  ```shell
  git push origin プッシュ先のブランチ名
+ ```
+ ### 現在のブランチ名を指定せずにプッシュする
+ ```shell
+ git push -u origin HEAD
  ```
 
  # 取り消ししたいとき
