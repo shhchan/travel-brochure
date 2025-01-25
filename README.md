@@ -28,42 +28,43 @@ git fetch
 ```
 
 ## ブランチを移動する
- ```shell
- git checkout ブランチ名
- ```
+```shell
+git checkout ブランチ名
+```
 
- ## ブランチをきる
- ```shell
- git branch -b 新しいブランチ名 origin/もってくるブランチ名
- ```
+## ブランチをきる
+```shell
+git branch -b 新しいブランチ名 origin/もってくるブランチ名
+```
 
- ## ステージする
- #### 作業ツリーすべてステージ
- ```shell
+## ステージする
+
+### 作業ツリーすべてステージ
+```shell
 git add -A
- ```
-  #### 変更だけステージ
- ```shell
+```
+### 変更だけステージ
+```shell
 git add -u
- ```
+```
+## コミットする
+```shell
+git commit -m "メッセージ"
+```
 
- ## コミットする
- ```shell
- git commit -m "メッセージ"
- ```
+## プッシュする
+```shell
+git push origin プッシュ先のブランチ名
+```
 
- ## プッシュする
- ```shell
- git push origin プッシュ先のブランチ名
- ```
+# 取り消ししたいとき
 
- # 取り消ししたいとき
-  ## ステージから取り除く
-  ```shell
-  git reset HEAD
-  ```
+## ステージから取り除く
+```shell
+git reset HEAD
+```
 
-  ## 直前のコミットを取り消し
-  ```shell
-  git reset --soft HEAD^
-  ```
+## 直前のコミットを取り消し
+```shell
+git reset --soft HEAD^
+```
